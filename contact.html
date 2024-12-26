@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
+    <title>Spectrum cabinets and more</title>
+    <link rel="stylesheet" href="copypy.css">
+</head>
+<body>
+<section id="header">
+    <a href="#"><img style="width: 200px;" src="LOGO.jpg" class="logo" alt=""></a>
+    <div>
+        <ul id="navbar">
+            <li><a  href="cocopy.html">Home</a></li>
+            <li><a  href="shop.html">Shop</a></li>
+            <li><a href="cocopy.html">Blog</a></li>
+            <li><a href="cocopy.html">About Us</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li><a href="cocopy.html">
+                <i id="log-cart" class="fa fa-shopping-cart"></i></a></li>
+                <a  href="#"id="close"><i class="fa fa-times"></i></a>
+        </ul>
+    </div>
+    <div id="mobil">
+        <a href="cocopy.html">
+        <i class="fa fa-shopping-cart"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+    </div>
+    </section>
+    <section id="conta" class="section-p1">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4253.547003694589!2d-80.20943542459143!3d26.005200377199785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9a9242a988281%3A0x2b447c6e7e7c2ea!2sSpectrum%20Cabinets%20and%20More!5e1!3m2!1sen!2sus!4v1734207052825!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="list-if">
+        <div>
+            <h4 style="text-align: center;width: 500px;"><u>WHERE WE SERVE</u></h4>
+        <p>HOLLYWOOD,FL | MIAMI,FL | BROWARD,FL | DELRAY BEACH,FL <br>PAM BEACH,FL | BOCA RATON,FL | 
+        PORT ST LUCIE | LAKE WORTH</p>
+        </div>
+       
+
+        <div class="col">
+            <h4>CONTACT INFO</h4>
+            <p> <strong>Phone:</strong> 954.652.1579 / 786.935.8478</p>
+            <p> <strong>Hours:</strong> 9:00 - 5:00, Mon - Sat</p>
+            </div>
+    </div>
+
+    </section>
+    <section id="fillout" class="section-p1 section-m1">
+        <div class="fill-info">
+        </div>
+        <div class="inf-fill">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
+                <input type="hidden" name="access_key" value="be03685d-c71c-4273-b890-00d79a02d034">
+                <input type="text" placeholder="Full Name*" class="contact__input" id="contact-name" onkeyup="validateName()">
+                <span id="name-error"></span>
+                            <input type="tel" id="contact-phone" name="phone" placeholder="phone No.*" class="contact__input" onkeyup="validatePhone()">
+                            <span id="phone-error"></span>
+                            <input type="adress" id="adress" name="adress" class="contact__input"
+                            placeholder="Adress*">
+                            <input type="mail" placeholder="Email*" class="contact__input" id="contact-email" onkeyup="validateEmail()">
+                            <span id="email-error"></span>
+                            <label for="appt">Select a time*:</label>
+                            <input type="date" id="birthday" name="birthday">
+                            <input type="time" id="appt" name="appt">
+                            <input type="mail" placeholder="Subject" class="contact__input">
+                <textarea name="Your message" id="" cols="0" rows="10"  placeholder="More Informations"
+                class="contact__input"></textarea>
+                <button class="contact__button" onclick="return validateForm()">Submit</button>
+                <span id="submit-error"></span>
+            </form>
+        </div>
+    </section>
+    <script src="cocpy.js"></script>
+</body>
+</html>
